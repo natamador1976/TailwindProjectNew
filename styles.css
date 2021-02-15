@@ -1,0 +1,165 @@
+.card {
+    background-color: #b1aeae;
+    height: 6rem;
+}
+
+.img1{
+    padding: 1em;
+    background-color: #00a2ff;
+}
+
+.img2{
+    padding: 1em;
+    background-color: #ff0000;
+}
+
+.img3{
+    padding: 1em;
+    background-color: #018a01;
+}
+
+.img4{
+    padding: 1em;
+    background-color: #ffa600;
+}
+@media screen and (max-width: 320px){
+    table{
+        width: 100%;
+      
+    }
+
+    thead {
+        display: none;
+    }
+
+    tr:nth-of-type(2n){
+        background-color: inherit;
+    }
+
+    tr td:first-child {
+        background: #f0f0f0;
+        font-weight: bold;
+        font-size: 1.3rem
+    }
+
+    tbody td{
+        display: block;
+        text-align: center;
+
+    }
+
+    tbody td::before{
+        content: attr(data-th);
+        display: block;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 320px){
+    table{
+        display: block;
+        overflow-x: auto;
+    }
+}
+
+.btn.btn-flat {
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border-width: 1px;
+}
+
+.btn-info{
+    color: #fff;
+    background-color: #5bc0dc;
+    border-color: #46b8da;
+}
+
+.btn{
+    border-radius: 3px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 1px solid transparent;
+}
+
+.btn-group-sm>.btn, .btn-sm{
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+
+.btn{
+    display: inline-block;
+    margin-bottom: 2px;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+  
+}
+
+a {
+    color: #3c8dbc;
+    color: #337ab7;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.btn-default {
+    background-color: #f4f4f4;
+    color: #444444;
+    border-color: #ddd;
+}
+
+.pull-right {
+    float: right;
+}
+
+.btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+    margin-right: 30px;
+}
+.graphics{
+    background-color: rgb(58, 122, 58);
+}
+
+.stadisticsimg1{
+    padding: 2em;
+    background-color: rgb(202, 131, 0);
+}
+
+.stadisticsimg2{
+    padding: 2em;
+    background-color: rgb(12, 75, 0);
+}
+
+.stadisticsimg3{
+    padding: 2em;
+    background-color: rgb(114, 18, 18);
+}
+
+.stadisticsimg4{
+    padding: 2em;
+    background-color: rgb(0, 55, 80);
+}
+
+.line{
+    background-color: #fff;
+}
+
+
+
+
